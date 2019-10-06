@@ -1,0 +1,7 @@
+Line 9: Property Icon in frmMedicineCatagory had an invalid file reference.
+Line 108: Property Picture in cmdOpen had an invalid file reference.
+Line 119: Property Picture in cmdClose had an invalid file reference.
+Line 130: Property Picture in cmdCancel had an invalid file reference.
+Line 141: Property Picture in cmdEdit had an invalid file reference.
+Line 153: Property Picture in cmdNew had an invalid file reference.
+Line 164: Property Picture in CmdDelete had an invalid file reference.

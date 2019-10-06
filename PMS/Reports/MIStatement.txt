@@ -1,0 +1,289 @@
+Option Explicit
+
+Private rsMaster                            As ADODB.Recordset
+Private rsSelect                            As ADODB.Recordset 'sub
+
+Private objReportApp                        As CRPEAuto.Application
+Private objReport                           As CRPEAuto.Report
+Private objReportDatabase                   As CRPEAuto.Database
+Private objReportDatabaseTables             As CRPEAuto.DatabaseTables
+Private objReportDatabaseTable              As CRPEAuto.DatabaseTable
+Private objReportFormulaFieldDefinations    As CRPEAuto.FormulaFieldDefinitions
+Private objReportFF                         As CRPEAuto.FormulaFieldDefinition
+Private ObjPrinterSetting                   As CRPEAuto.PrintWindowOptions
+Private Tracer                              As Integer
+Private strGroupName                        As String
+
+Private Sub CmdExit_Click()
+Unload Me
+End Sub
+
+Private Sub Form_Load()
+'    Call Connect
+    ModFunction.StartUpPosition Me
+    CurrentDate.Value = Date
+    FDate.Value = Date
+        TDate.Value = Date
+'        Call LoadcmbBankName
+        OpCurrentDate.Value = True
+        lblFrom.Visible = False
+        lblTo.Visible = False
+        FDate.Visible = False
+        TDate.Visible = False
+        
+        
+    End Sub
+
+Private Sub OpCurrentDate_Click()
+        lblFrom.Visible = False
+        lblTo.Visible = False
+        FDate.Visible = False
+        TDate.Visible = False
+        CurrentDate.Visible = True
+'        Label1.Visible = True
+End Sub
+
+Private Sub OpCustomDate_Click()
+        lblFrom.Visible = True
+        lblTo.Visible = True
+        FDate.Visible = True
+        TDate.Visible = True
+        CurrentDate.Visible = False
+'        Label1.Visible = False
+End Sub
+
+Private Sub tbEO_ButtonClick(ByVal Button As MSComctlLib.Button)
+
+
+Select Case Button.Key
+     Case "Preview"
+            If Validate Then
+            If chkDetails.Value = 1 Then
+                Tracer = 0
+                Call FetchData1
+                Call previewReport1
+                Else
+                Call FetchData
+                Call previewReport
+               End If
+               End If
+     Case "Print"
+            If Validate Then
+            If chkDetails.Value = 1 Then
+                Tracer = 1
+                Call FetchData1
+                Call previewReport1
+                Else
+                Call FetchData
+                Call previewReport
+               End If
+               End If
+     Case "Close"
+               Unload Me
+    End Select
+
+End Sub
+Private Function Validate() As Boolean
+           Validate = True
+        If FDate.Value > TDate.Value Then
+            MsgBox "Invalid Date and select accurate date range", vbInformation, "Party Wise Sample Report"
+            FDate.SetFocus
+            Validate = False
+            Exit Function
+        End If
+    End Function
+
+Public Function parseQuotes(text As String) As String
+    parseQuotes = Replace(text, "'", "''")
+End Function
+
+Public Function FetchData()
+
+'    Set rsMaster = New ADODB.Recordset
+'
+'    If OpCurrentDate.Value = True Then
+'
+'    rsMaster.Open "SELECT CMID,CName,RegNo,Tamount,DiscuntPer, DiscuntTaka, Tpaid, " & _
+'                  "TDue, SDate,Posted , UName,Admitted " & _
+'                  "From SalesMaster " & _
+'                  "WHERE    SDate='" & CurrentDate.Value & "' AND Posted = 'Posted' order by Admitted", cn, adOpenStatic, adLockReadOnly
+'     End If
+             
+If OpCustomDate.Value = True Then
+ Set rsMaster = New ADODB.Recordset
+ rsMaster.Open "exec Employee_Ledger", cn, adOpenStatic, adLockReadOnly
+                                             
+'     rsMaster.Open "SELECT CMID,CName,RegNo,Tamount,DiscuntPer, DiscuntTaka, Tpaid, " & _
+'                  "TDue, SDate,Posted , UName,Admitted " & _
+'                    "From SalesMaster " & _
+'                    "WHERE  SDate BETWEEN '" & FDate.Value & "' AND " & _
+'                    "'" & TDate.Value & "' AND Posted = 'Posted' order by CMID", cn, adOpenStatic, adLockReadOnly
+      
+      End If
+                  
+End Function
+
+Public Function FetchData1()
+
+'    Set rsMaster = New ADODB.Recordset
+'
+'    If OpCurrentDate.Value = True Then
+'
+'
+'    rsMaster.Open "SELECT CMID,CName,RegNo,Tamount,DiscuntPer, DiscuntTaka, Tpaid, " & _
+'                  "TDue, SDate,Posted , UName,Admitted " & _
+'                    "From SalesMaster " & _
+'                    "WHERE    SDate='" & CurrentDate.Value & "' AND Posted = 'Posted' order by CMID", cn, adOpenStatic, adLockReadOnly
+'
+'     End If
+'
+      If OpCustomDate.Value = True Then
+              
+ Set rsMaster = New ADODB.Recordset
+    
+    rsMaster.Open "exec Medicine_Income", cn, adOpenStatic, adLockReadOnly
+                                            
+'     rsMaster.Open "SELECT CMID,CName,RegNo,Tamount,DiscuntPer, DiscuntTaka, Tpaid, " & _
+'                  "TDue, SDate,Posted , UName,Admitted " & _
+'                    "From SalesMaster " & _
+'                    "WHERE  SDate BETWEEN '" & FDate.Value & "' AND " & _
+'                    "'" & TDate.Value & "' AND Posted = 'Posted' order by CMID", cn, adOpenStatic, adLockReadOnly
+      
+      End If
+                
+End Function
+
+Public Sub previewReport()
+On Error GoTo ErrH
+    Dim strPath As String
+
+    If rsMaster.RecordCount = 0 Then
+        MsgBox "Data not available", vbInformation
+        Exit Sub
+    End If
+
+    
+        strPath = App.Path + "\reports\Employee_Ledger.rpt"
+        Set objReportApp = CreateObject("Crystal.CRPE.Application")
+        Set objReport = objReportApp.OpenReport(strPath)
+        Set objReportDatabase = objReport.Database
+        Set objReportDatabaseTables = objReportDatabase.Tables
+        Set objReportDatabaseTable = objReportDatabaseTables.Item(1)
+        Set ObjPrinterSetting = objReport.PrintWindowOptions
+        Set objReportFormulaFieldDefinations = objReport.FormulaFields
+        
+        If OpCurrentDate.Value = True Then
+
+   Set objReportFF = objReportFormulaFieldDefinations.Item(1)
+              objReportFF.text = "'" + Format(CurrentDate, "dd-MMM-yyyy") + "'"
+
+  End If
+
+  If OpCustomDate.Value = True Then
+
+   Set objReportFF = objReportFormulaFieldDefinations.Item(2)
+
+              objReportFF.text = "'" + Format(FDate, "dd-MMM-yyyy") + "'"
+
+   Set objReportFF = objReportFormulaFieldDefinations.Item(3)
+             objReportFF.text = "'" + Format(TDate, "dd-MMM-yyyy") + "'"
+
+   End If
+
+   
+'   Set objReportFF = objReportFormulaFieldDefinations.Item(1)
+'              objReportFF.text = "'" + Format(FDate, "dd-MMM-yyyy") + "'"
+'         Set objReportFF = objReportFormulaFieldDefinations.Item(2)
+'             objReportFF.text = "'" + Format(TDate, "dd-MMM-yyyy") + "'"
+'
+
+      
+        objReportDatabaseTable.SetPrivateData 3, rsMaster
+    
+        ObjPrinterSetting.HasPrintSetupButton = True
+        ObjPrinterSetting.HasRefreshButton = True
+        ObjPrinterSetting.HasSearchButton = True
+        ObjPrinterSetting.HasZoomControl = True
+        
+        objReport.DiscardSavedData
+        objReport.Preview "Sales Insformations", , , , , 16777216 Or 524288 Or 65536
+    
+      
+     If Tracer = 1 Then
+    objReport.PrintOut
+    End If
+  
+        Set objReport = Nothing
+        Set objReportDatabase = Nothing
+        Set objReportDatabaseTables = Nothing
+        Set objReportDatabaseTable = Nothing
+    Exit Sub
+
+ErrH:
+
+    Select Case Err.Number
+        Case 20545
+            MsgBox "Request cancelled by the user", vbInformation, "Bank Information Report"
+        Case Else
+            MsgBox "Error " & Err.Number & " - " & Err.Description, vbCritical, "Bank Information Report"
+    End Select
+End Sub
+
+Public Sub previewReport1()
+On Error GoTo ErrH
+    Dim strPath As String
+
+    If rsMaster.RecordCount = 0 Then
+        MsgBox "Data not available", vbInformation
+        Exit Sub
+    End If
+
+    
+        strPath = App.Path + "\reports\Medicine Income Ledger.rpt"
+        Set objReportApp = CreateObject("Crystal.CRPE.Application")
+        Set objReport = objReportApp.OpenReport(strPath)
+        Set objReportDatabase = objReport.Database
+        Set objReportDatabaseTables = objReportDatabase.Tables
+        Set objReportDatabaseTable = objReportDatabaseTables.Item(1)
+        Set ObjPrinterSetting = objReport.PrintWindowOptions
+        Set objReportFormulaFieldDefinations = objReport.FormulaFields
+   
+'   Set objReportFF = objReportFormulaFieldDefinations.Item(1)
+'              objReportFF.text = "'" + Format(FDate, "dd-MMM-yyyy") + "'"
+'         Set objReportFF = objReportFormulaFieldDefinations.Item(2)
+'             objReportFF.text = "'" + Format(TDate, "dd-MMM-yyyy") + "'"
+
+
+      
+        objReportDatabaseTable.SetPrivateData 3, rsMaster
+    
+        ObjPrinterSetting.HasPrintSetupButton = True
+        ObjPrinterSetting.HasRefreshButton = True
+        ObjPrinterSetting.HasSearchButton = True
+        ObjPrinterSetting.HasZoomControl = True
+        
+        objReport.DiscardSavedData
+        objReport.Preview "Sales Income Insformations", , , , , 16777216 Or 524288 Or 65536
+    
+      
+     If Tracer = 1 Then
+    objReport.PrintOut
+    End If
+  
+        Set objReport = Nothing
+        Set objReportDatabase = Nothing
+        Set objReportDatabaseTables = Nothing
+        Set objReportDatabaseTable = Nothing
+    Exit Sub
+
+ErrH:
+
+    Select Case Err.Number
+        Case 20545
+            MsgBox "Request cancelled by the user", vbInformation, "Sales Income Information Report"
+        Case Else
+            MsgBox "Error " & Err.Number & " - " & Err.Description, vbCritical, "Bank Information Report"
+    End Select
+End Sub
+
+

@@ -1,0 +1,9 @@
+Indoor		Currency		
+Outddor		Currency
+TDiscount 	Currency		
+Indoor_Return	Currency		
+Outdoor_Return	Currency		
+Due_Collection	Currency		
+Total_Advance	Currency		
+Net_Collection	Currency
+Total_Due	Currency	

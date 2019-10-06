@@ -1,0 +1,3 @@
+SerialNo	Number		
+MedicineName	String	100	
+Barcode	Byte		

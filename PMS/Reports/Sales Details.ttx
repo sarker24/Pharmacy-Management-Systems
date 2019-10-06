@@ -1,0 +1,15 @@
+SerialNo	Number		
+CMID		Number
+SName		String	25
+MCatagory	String	20	
+MName		String	250	
+Qty		Currency		
+SRate		Currency		
+Amount		Currency
+PRate		Currency
+DiscountP 	Currency
+TDiscount	Currency
+NetAmount 	Currency		
+Posted		String	10	
+UName		String	20
+SDate		Date	

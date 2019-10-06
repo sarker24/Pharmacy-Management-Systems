@@ -1,0 +1,10 @@
+SerialNo	Number		
+CName		String	50	
+Tamount		Currency		
+DiscountPer	Currency
+DiscountTaka	Currency		
+Advance		Currency		
+TDue		Currency
+BillDate	Date		
+Posted		String	10	
+UserName	String	10	

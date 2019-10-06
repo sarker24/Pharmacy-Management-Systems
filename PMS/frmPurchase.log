@@ -1,0 +1,4 @@
+Line 13: Property Icon in frmPurchase had an invalid file reference.
+Line 108: Property FormatString in fgPurchase had an invalid value.
+Line 177: Property Picture in cmdLDelete had an invalid file reference.
+Line 205: Property Text in txtpost had an invalid file reference.

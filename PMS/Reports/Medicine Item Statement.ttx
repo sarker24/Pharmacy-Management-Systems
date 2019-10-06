@@ -1,0 +1,13 @@
+CMID		Number		
+SName		String	150
+CName		String	150	
+MCatagory	String	50	
+MName		Currency	
+Qty		Currency
+SRate		Currency
+Amount		Currency		
+PRate		Currency		
+Discount	Currency
+Posted		String	10	
+UName		String	20
+SDate		Date	

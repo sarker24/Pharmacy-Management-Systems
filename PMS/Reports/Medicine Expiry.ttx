@@ -1,0 +1,9 @@
+SerialNo	Number		
+Sname	String	250	
+Catagory	String	20	
+Mname	String	250	
+Qty	Number		
+Rate	Currency		
+Amount	Currency		
+DateM	Date		
+DateExp	Date		

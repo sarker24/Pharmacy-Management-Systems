@@ -1,0 +1,8 @@
+Sname		String	150	
+Catagory	String	50	
+MName		String	200	
+Quentity	Currency		
+PRate		Currency		
+amount		Currency
+SRate		Currency
+posted		String	50		

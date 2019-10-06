@@ -1,0 +1,18 @@
+CMID		Number
+SDate		Date
+CName		String	150
+CAddress	String	150
+RegNo		String	20		
+BedNo		String	30
+Tamount		Currency	
+DiscuntPer 	Currency		
+DiscuntTaka	Currency
+TTime 		String	30
+Tpaid		Currency	
+Tdue		Currency
+Advance		Currency	
+Posted		String	10
+UName		String	10
+Admitted	String	10
+Remark		String	10
+

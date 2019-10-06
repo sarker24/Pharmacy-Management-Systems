@@ -1,0 +1,11 @@
+PC_ID		Number
+CDate		Date
+CTime		String	10
+ComputerName	String	10
+Amount		Currency	
+CMID		Number
+RegNo		String	10		
+Post		String	10	
+Particulars	String	100	
+UserName	String	10		
+Status		String	10

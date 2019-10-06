@@ -1,0 +1,14 @@
+SerialNo	Number	
+MedicineName	String	25	
+GenericName	String	30	
+MCatagory	String	10	
+SupplierName	String	35
+ROL		Currency
+Unit		String	35
+CPost		String	35
+UName		String	35
+Obalance	Number
+OBRate		Currency
+OBDate		Date	
+SRate		Currency	
+Discount	Currency

@@ -1,0 +1,11 @@
+SerialNo	Number		
+Sname		String	10	
+Pdate		Date		
+SbillNo 	String	10
+Catagory	String	50	
+MName		String	250	
+Qty		Number		
+PRate		Currency		
+Amount		Currency
+SRate		Currency				
+Posted		String	10	

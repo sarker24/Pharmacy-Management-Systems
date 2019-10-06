@@ -1,0 +1,13 @@
+CMID		Number		
+SDate		Date		
+CName		String	100	
+RegNo		String	20	
+TAmount		Currency		
+DiscountPer	Currency		
+DiscountTaka	Currency		
+TTime		String	15	
+TPaid		Currency		
+TDue		Currency		
+UName		String	15	
+Posted		String	10
+Admitted 	String	10	

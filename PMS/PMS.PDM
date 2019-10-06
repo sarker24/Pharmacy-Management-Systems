@@ -1,0 +1,671 @@
+[Root]
+Most Recent Package=PMS
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=H:\PMS\Pharmacy\All Setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+SSCSDK80.DLL=
+u2LBAR.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+p2BBDE.DLL=
+Crystal=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\PVapps\ActiveXSuite3\pvTime.ocx=
+C:\PVapps\ActiveXSuite3\pvShape.ocx=
+C:\PVapps\ActiveXSuite3\pvText.ocx=
+C:\PVapps\ActiveXSuite3\pvNum.ocx=
+C:\PVapps\ActiveXSuite3\pvLine.ocx=
+C:\PVapps\ActiveXSuite3\pvdt50.ocx=
+C:\PVapps\ActiveXSuite3\pvdtb50.ocx=
+C:\PVapps\ActiveXSuite3\pvdt40.ocx=
+C:\PVapps\ActiveXSuite3\pvbutton.ocx=
+C:\PVapps\ActiveXSuite3\pvprgbar.ocx=
+C:\WINDOWS\system32\ssdw3bo.ocx=
+C:\WINDOWS\system32\Vsflex7d.ocx=
+C:\Program Files\Microsoft Visual Studio\VB98\VBDATAVW.TLB=
+C:\Program Files\NetMeeting\conf.exe=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\dXSBar.dll=
+C:\WINDOWS\system32\craxdui.dll=
+C:\WINDOWS\system32\crviewer.dll=
+C:\WINDOWS\system32\sviewhlp.dll=
+C:\WINDOWS\system32\craxddt.dll=
+C:\WINDOWS\system32\Cdo32.dll=
+C:\WINDOWS\system32\xqviewer.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\WINDOWS\system32\Vsflex7L.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\ssdw3b32.ocx=
+C:\WINDOWS\system32\ssdw3a32.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\Comdlg32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+H:\PMS\Pharmacy\HMS.INI=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+H:\PMS\Pharmacy\PMS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Vsflex7L.ocx=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\msrd2x35.dll=Yes
+C:\WINDOWS\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\system32\xqviewer.dll=Yes
+C:\WINDOWS\system32\Cdo32.dll=Yes
+C:\WINDOWS\system32\craxddt.dll=Yes
+C:\WINDOWS\system32\cpeaut32.dll=Yes
+C:\WINDOWS\system32\crpe32.dll=Yes
+C:\WINDOWS\system32\Implode.dll=Yes
+C:\WINDOWS\system32\Crpaig80.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\mfc42.dll=Yes
+C:\WINDOWS\Crystal\Crxlat32.dll=Yes
+C:\WINDOWS\system32\P2bbnd.dll=Yes
+C:\WINDOWS\system32\p2bdao.dll=Yes
+C:\WINDOWS\Crystal\p2bxbse.dll=Yes
+C:\WINDOWS\system32\p2ctdao.dll=Yes
+C:\WINDOWS\system32\p2irdao.dll=Yes
+C:\WINDOWS\Crystal\p2sifmx.dll=Yes
+C:\WINDOWS\system32\P2smon.dll=Yes
+C:\WINDOWS\system32\p2sodbc.dll=Yes
+C:\WINDOWS\Crystal\p2sora7.dll=Yes
+C:\WINDOWS\Crystal\p2ssql.dll=Yes
+C:\WINDOWS\Crystal\p2ssyb10.dll=Yes
+C:\WINDOWS\Crystal\p2soledb.dll=Yes
+C:\WINDOWS\Crystal\u2ddisk.dll=Yes
+C:\WINDOWS\Crystal\u2dmapi.dll=Yes
+C:\WINDOWS\Crystal\u2dnotes.dll=Yes
+C:\WINDOWS\Crystal\u2dpost.dll=Yes
+C:\WINDOWS\Crystal\u2dvim.dll=Yes
+C:\WINDOWS\Crystal\u2dapp.dll=Yes
+C:\WINDOWS\Crystal\u2fcr.dll=Yes
+C:\WINDOWS\Crystal\u2fhtml.dll=Yes
+C:\WINDOWS\Crystal\u2fodbc.dll=Yes
+C:\WINDOWS\Crystal\u2frec.dll=Yes
+C:\WINDOWS\Crystal\u2frtf.dll=Yes
+C:\WINDOWS\Crystal\u2fsepv.dll=Yes
+C:\WINDOWS\Crystal\u2ftext.dll=Yes
+C:\WINDOWS\Crystal\u2fwks.dll=Yes
+C:\WINDOWS\Crystal\u2fwordw.dll=Yes
+C:\WINDOWS\Crystal\u2fxls.dll=Yes
+C:\WINDOWS\Crystal\u25dts.dll=Yes
+C:\WINDOWS\Crystal\u2l2000.dll=Yes
+C:\WINDOWS\Crystal\u2lcom.dll=Yes
+C:\WINDOWS\Crystal\u2ldts.dll=Yes
+C:\WINDOWS\Crystal\u2lsamp1.dll=Yes
+C:\WINDOWS\Crystal\u252000.dll=Yes
+C:\WINDOWS\system32\sviewhlp.dll=Yes
+C:\WINDOWS\system32\crviewer.dll=Yes
+C:\WINDOWS\system32\craxdui.dll=Yes
+C:\WINDOWS\system32\dXSBar.dll=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\NetMeeting\conf.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\VBDATAVW.TLB=Yes
+C:\WINDOWS\system32\Vsflex7d.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSComCt2.ocx=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\ssdw3bo.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\SSCALA32.OCX=Yes
+C:\PVapps\ActiveXSuite3\pvprgbar.ocx=Yes
+C:\WINDOWS\system32\ssdw3a32.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvbutton.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvdt40.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvdtb50.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvdt50.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvLine.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvNum.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvText.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvShape.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvTime.ocx=Yes
+C:\WINDOWS\system32\ssdw3b32.ocx=Yes
+C:\WINDOWS\system32\ssmedt32.dll=Yes
+C:\WINDOWS\system32\ssprn32.dll=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\PMS\Pharmacy\HMS.INI=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+H:\PMS\Pharmacy\PMS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Vsflex7L.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\xqviewer.dll=$(WinSysPath)
+C:\WINDOWS\system32\Cdo32.dll=$(WinSysPath)
+C:\WINDOWS\system32\craxddt.dll=$(WinSysPath)
+C:\WINDOWS\system32\cpeaut32.dll=$(WinSysPath)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\system32\Implode.dll=$(AppPath)
+C:\WINDOWS\system32\Crpaig80.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPath)
+C:\WINDOWS\system32\mfc42.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\Crxlat32.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2bbnd.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2smon.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frtf.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u25dts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2l2000.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ldts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lsamp1.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u252000.dll=$(WinSysPath)
+C:\WINDOWS\system32\sviewhlp.dll=$(WinSysPath)
+C:\WINDOWS\system32\crviewer.dll=$(WinSysPath)
+C:\WINDOWS\system32\craxdui.dll=$(WinSysPath)
+C:\WINDOWS\system32\dXSBar.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\NetMeeting\conf.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\VBDATAVW.TLB=$(WinSysPath)
+C:\WINDOWS\system32\Vsflex7d.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSComCt2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ssdw3bo.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SSCALA32.OCX=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvprgbar.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ssdw3a32.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvbutton.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvdt40.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvdtb50.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvdt50.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvLine.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvNum.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvText.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvShape.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvTime.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ssdw3b32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ssmedt32.dll=$(WinSysPath)
+C:\WINDOWS\system32\ssprn32.dll=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+H:\PMS\Pharmacy\HMS.INI=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+H:\PMS\Pharmacy\PMS.exe=Yes
+C:\WINDOWS\system32\Implode.dll=Yes
+C:\Program Files\NetMeeting\conf.exe=Yes
+H:\PMS\Pharmacy\HMS.INI=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Parmacy Management Systems
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Parmacy Management Systems
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Parmacy Management Systems]
+Icon1=PMS.exe
+Title1=Parmacy Management Systems
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=H:\PMS\Pharmacy\All Setup
+ProjectFolder=H:\PMS\Pharmacy
+ServerSideCab=
+File1=H:\PMS\Pharmacy\All Setup\setup.exe
+File2=H:\PMS\Pharmacy\All Setup\Setup.Lst
+File3=H:\PMS\Pharmacy\All Setup\PMS1.CAB
+File4=H:\PMS\Pharmacy\All Setup\PMS2.CAB
+File5=H:\PMS\Pharmacy\All Setup\PMS3.CAB
+File6=H:\PMS\Pharmacy\All Setup\PMS4.CAB
+File7=H:\PMS\Pharmacy\All Setup\PMS5.CAB
+File8=H:\PMS\Pharmacy\All Setup\PMS6.CAB
+File9=H:\PMS\Pharmacy\All Setup\PMS7.CAB
+File10=H:\PMS\Pharmacy\All Setup\PMS8.CAB
+File11=H:\PMS\Pharmacy\All Setup\PMS9.CAB
+File12=H:\PMS\Pharmacy\All Setup\PMS10.CAB
+File13=H:\PMS\Pharmacy\All Setup\PMS11.CAB
+File14=H:\PMS\Pharmacy\All Setup\PMS12.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|PMS|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Pharmacy Software
+
+[Package|PMS|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|PMS|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PMS|Files Found]
+
+[Package|PMS|Files Released]
+u2LBAR.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+Crystal=
+
+[Package|PMS|Missing Dependency Information]
+C:\PVapps\ActiveXSuite3\pvTime.ocx=
+C:\PVapps\ActiveXSuite3\pvLine.ocx=
+C:\PVapps\ActiveXSuite3\pvprgbar.ocx=
+C:\WINDOWS\system32\ssdw3bo.ocx=
+C:\WINDOWS\system32\Vsflex7d.ocx=
+C:\Program Files\Microsoft Visual Studio\VB98\VBDATAVW.TLB=
+C:\Program Files\NetMeeting\conf.exe=
+C:\WINDOWS\system32\dXSBar.dll=
+C:\WINDOWS\system32\craxdui.dll=
+C:\WINDOWS\system32\crviewer.dll=
+C:\WINDOWS\system32\sviewhlp.dll=
+C:\WINDOWS\system32\craxddt.dll=
+C:\WINDOWS\system32\Cdo32.dll=
+C:\WINDOWS\system32\xqviewer.dll=
+C:\WINDOWS\system32\Vsflex7L.ocx=
+F:\Protoview ActiveX Component Suite v3.1\_ISDEL.EXE=
+E:\#Essential\SQL2000\x86\setup\sqlstp.exe=
+E:\#Essential\SQL2000\x86\setup\setupsql.exe=
+E:\#Essential\SQL2000\x86\setup\msetup.exe=
+
+[Package|PMS|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\ssdw3b32.ocx=
+C:\WINDOWS\system32\ssdw3a32.ocx=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|PMS|Files Added]
+f:\protoview activex component suite v3.1\_isdel.exe=
+f:\tools\vb component\sidebar\esidebarxfree.exe=
+E:\#Essential\SQL2000\autorun.exe=
+E:\#Essential\SQL2000\x86\setup\sqlstp.exe=
+E:\#Essential\SQL2000\x86\setup\setupsql.exe=
+E:\#Essential\SQL2000\x86\setup\msetup.exe=
+D:\HMS_Data.MDF=
+D:\HMS_Log.LDF=
+
+[Package|PMS|Files Removed]
+
+[Package|PMS|Files In Project]
+D:\Sun Medical\PMS\PMS.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Vsflex7L.ocx=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\msrd2x35.dll=Yes
+C:\WINDOWS\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\xqviewer.dll=Yes
+C:\WINDOWS\system32\Cdo32.dll=Yes
+C:\WINDOWS\system32\craxddt.dll=Yes
+C:\WINDOWS\system32\cpeaut32.dll=Yes
+C:\WINDOWS\system32\crpe32.dll=Yes
+C:\WINDOWS\system32\Implode.dll=Yes
+C:\WINDOWS\system32\Crpaig80.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\mfc42.dll=Yes
+C:\WINDOWS\Crystal\Crxlat32.dll=Yes
+C:\WINDOWS\system32\p2bbde.dll=Yes
+C:\WINDOWS\system32\P2bbnd.dll=Yes
+C:\WINDOWS\system32\p2bdao.dll=Yes
+C:\WINDOWS\Crystal\p2bxbse.dll=Yes
+C:\WINDOWS\system32\p2ctdao.dll=Yes
+C:\WINDOWS\system32\p2irdao.dll=Yes
+C:\WINDOWS\Crystal\p2sifmx.dll=Yes
+C:\WINDOWS\system32\P2smon.dll=Yes
+C:\WINDOWS\system32\p2sodbc.dll=Yes
+C:\WINDOWS\Crystal\p2sora7.dll=Yes
+C:\WINDOWS\Crystal\p2ssql.dll=Yes
+C:\WINDOWS\Crystal\p2ssyb10.dll=Yes
+C:\WINDOWS\Crystal\p2soledb.dll=Yes
+C:\WINDOWS\Crystal\u2ddisk.dll=Yes
+C:\WINDOWS\Crystal\u2dmapi.dll=Yes
+C:\WINDOWS\Crystal\u2dnotes.dll=Yes
+C:\WINDOWS\Crystal\u2dpost.dll=Yes
+C:\WINDOWS\Crystal\u2dvim.dll=Yes
+C:\WINDOWS\Crystal\u2dapp.dll=Yes
+C:\WINDOWS\Crystal\u2fcr.dll=Yes
+C:\WINDOWS\Crystal\u2fhtml.dll=Yes
+C:\WINDOWS\Crystal\u2fodbc.dll=Yes
+C:\WINDOWS\Crystal\u2frec.dll=Yes
+C:\WINDOWS\Crystal\u2frtf.dll=Yes
+C:\WINDOWS\Crystal\u2fsepv.dll=Yes
+C:\WINDOWS\Crystal\u2ftext.dll=Yes
+C:\WINDOWS\Crystal\u2fwks.dll=Yes
+C:\WINDOWS\Crystal\u2fwordw.dll=Yes
+C:\WINDOWS\Crystal\u2fxls.dll=Yes
+C:\WINDOWS\Crystal\u25dts.dll=Yes
+C:\WINDOWS\Crystal\u2l2000.dll=Yes
+C:\WINDOWS\Crystal\u2lcom.dll=Yes
+C:\WINDOWS\Crystal\u2ldts.dll=Yes
+C:\WINDOWS\Crystal\u2lsamp1.dll=Yes
+C:\WINDOWS\Crystal\u252000.dll=Yes
+C:\WINDOWS\system32\SSCSDK80.DLL=Yes
+C:\WINDOWS\system32\sviewhlp.dll=Yes
+C:\WINDOWS\system32\crviewer.dll=Yes
+C:\WINDOWS\system32\craxdui.dll=Yes
+C:\WINDOWS\system32\dXSBar.dll=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\NetMeeting\conf.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\VBDATAVW.TLB=Yes
+C:\WINDOWS\system32\Vsflex7d.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\ssdw3bo.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\SSCALA32.OCX=Yes
+C:\WINDOWS\system32\ssdw3a32.ocx=Yes
+C:\WINDOWS\system32\ssdw3b32.ocx=Yes
+C:\WINDOWS\system32\ssmedt32.dll=Yes
+C:\WINDOWS\system32\ssprn32.dll=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\PVapps\ActiveXSuite3\pvprgbar.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvLine.ocx=Yes
+C:\PVapps\ActiveXSuite3\pvTime.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\Protoview ActiveX Component Suite v3.1\_ISDEL.EXE=Yes
+F:\TOOLS\VB Component\SIDEBAR\ESideBarXFree.exe=Yes
+E:\#Essential\SQL2000\autorun.exe=Yes
+E:\#Essential\SQL2000\x86\setup\sqlstp.exe=Yes
+E:\#Essential\SQL2000\x86\setup\setupsql.exe=Yes
+E:\#Essential\SQL2000\x86\setup\msetup.exe=Yes
+D:\HMS_Data.MDF=Yes
+D:\HMS_Log.LDF=Yes
+
+[Package|PMS|Configure Registry Files]
+Applicable=No
+
+[Package|PMS|Configure Remote Servers]
+Applicable=No
+
+[Package|PMS|Install Locations]
+D:\Sun Medical\PMS\PMS.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Vsflex7L.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\xqviewer.dll=$(WinSysPath)
+C:\WINDOWS\system32\Cdo32.dll=$(WinSysPath)
+C:\WINDOWS\system32\craxddt.dll=$(WinSysPath)
+C:\WINDOWS\system32\cpeaut32.dll=$(WinSysPath)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\system32\Implode.dll=$(AppPath)
+C:\WINDOWS\system32\Crpaig80.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mfc42.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\Crxlat32.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bbde.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2bbnd.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2smon.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frtf.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u25dts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2l2000.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ldts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lsamp1.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u252000.dll=$(WinSysPath)
+C:\WINDOWS\system32\SSCSDK80.DLL=$(WinSysPath)
+C:\WINDOWS\system32\sviewhlp.dll=$(WinSysPath)
+C:\WINDOWS\system32\crviewer.dll=$(WinSysPath)
+C:\WINDOWS\system32\craxdui.dll=$(WinSysPath)
+C:\WINDOWS\system32\dXSBar.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\NetMeeting\conf.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\VBDATAVW.TLB=$(WinSysPath)
+C:\WINDOWS\system32\Vsflex7d.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ssdw3bo.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SSCALA32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ssdw3a32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ssdw3b32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ssmedt32.dll=$(WinSysPath)
+C:\WINDOWS\system32\ssprn32.dll=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\PVapps\ActiveXSuite3\pvprgbar.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvLine.ocx=$(WinSysPath)
+C:\PVapps\ActiveXSuite3\pvTime.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Protoview ActiveX Component Suite v3.1\_ISDEL.EXE=$(AppPath)
+F:\TOOLS\VB Component\SIDEBAR\ESideBarXFree.exe=$(AppPath)
+E:\#Essential\SQL2000\autorun.exe=$(AppPath)
+E:\#Essential\SQL2000\x86\setup\sqlstp.exe=$(AppPath)
+E:\#Essential\SQL2000\x86\setup\setupsql.exe=$(AppPath)
+E:\#Essential\SQL2000\x86\setup\msetup.exe=$(WinSysPath)
+D:\HMS_Data.MDF=$(AppPath)
+D:\HMS_Log.LDF=$(AppPath)
+
+[Package|PMS|Configure Shared Files]
+Applicable=Yes
+D:\Sun Medical\PMS\PMS.exe=Yes
+C:\WINDOWS\system32\Implode.dll=Yes
+C:\Program Files\NetMeeting\conf.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\Protoview ActiveX Component Suite v3.1\_ISDEL.EXE=Yes
+F:\TOOLS\VB Component\SIDEBAR\ESideBarXFree.exe=Yes
+E:\#Essential\SQL2000\autorun.exe=Yes
+E:\#Essential\SQL2000\x86\setup\sqlstp.exe=Yes
+E:\#Essential\SQL2000\x86\setup\setupsql.exe=Yes
+D:\HMS_Data.MDF=Yes
+D:\HMS_Log.LDF=Yes
+
+[Package|PMS|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Parmacy Management Systems of Sun Medical Services
+
+[Package|PMS|IconGroups]
+Group0=Parmacy Management Systems of Sun Medical Services
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|PMS|Parmacy Management Systems of Sun Medical Services]
+Icon1=PMS.exe
+Title1=Parmacy Management Systems of Sun Medical Services
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PMS|Package]
+PackageFolder=D:\Pharmacy Software
+ProjectFolder=D:\Sun Medical\PMS
+ServerSideCab=
+File1=D:\Pharmacy Software\setup.exe
+File2=D:\Pharmacy Software\Setup.Lst
+File3=D:\Pharmacy Software\PMS1.CAB
+File4=D:\Pharmacy Software\PMS2.CAB
+File5=D:\Pharmacy Software\PMS3.CAB
+File6=D:\Pharmacy Software\PMS4.CAB
+File7=D:\Pharmacy Software\PMS5.CAB
+File8=D:\Pharmacy Software\PMS6.CAB
+File9=D:\Pharmacy Software\PMS7.CAB
+File10=D:\Pharmacy Software\PMS8.CAB
+File11=D:\Pharmacy Software\PMS9.CAB
+File12=D:\Pharmacy Software\PMS10.CAB
+File13=D:\Pharmacy Software\PMS11.CAB
+File14=D:\Pharmacy Software\PMS12.CAB
+File15=D:\Pharmacy Software\PMS13.CAB
+File16=D:\Pharmacy Software\PMS14.CAB
+File17=D:\Pharmacy Software\PMS15.CAB
+File18=D:\Pharmacy Software\PMS16.CAB
+File19=D:\Pharmacy Software\PMS17.CAB
+File20=D:\Pharmacy Software\PMS18.CAB
+File21=D:\Pharmacy Software\PMS19.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,6 @@
+MCatagory	String	100	
+MName		String	100	
+Quentity	Currency		
+Rate		Currency		
+amount		Currency		
+posted		String	50	

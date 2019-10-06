@@ -1,0 +1,23 @@
+CMID		Number		
+SDate		Date		
+CName		String	50	
+CAddress	String	200	
+RegNo		String	20
+BedNo		String	30	
+Tamount		Currency		
+DiscountPer	Currency		
+DiscountTaka	Currency		
+Ttime		String	20	
+Tpaid		Currency		
+Tdue		Currency		
+Posted		String	15	
+UName		String	50
+Admitted	Number
+Remark		String	250
+MCatagory	String	20	
+MName		String	250	
+Qty		Number		
+SRate		Currency
+Amount		Currency
+Discount	Currency
+TDiscount	Currency

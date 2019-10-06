@@ -1,0 +1,19 @@
+SerialNo	Number		
+Sname		String	250	
+VatP		Currency
+VatT 		Currency
+Ptime		String	50
+Pdate		Date		
+SbillNo		String	50
+Tpaid		Currency		
+Discountp	Currency		
+Discount	Currency		
+Posted		String	50	
+UserName	String	50	
+Catagory	String	50	
+Mname		String	250	
+Qty		Number		
+Rate		Currency		
+Amount		Currency		
+DateExp		Date		
+DateM		Date		

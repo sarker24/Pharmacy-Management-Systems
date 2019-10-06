@@ -1,0 +1,9 @@
+Catagory	String	10	
+Mname	String	30	
+P_Qty	Number		
+S_Qty	Number		
+Qty	Number		
+P_Rate	Currency		
+S_Rate	Currency		
+Amount	Currency		
+Profit	Currency		
